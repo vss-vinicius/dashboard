@@ -143,3 +143,31 @@ div.hero-img>figure>img {
     width: 6.5rem;
     border-radius: 0.5rem;
 }
+
+section.button-container {
+    /*Box model stuff*/
+    width: 100%;
+    max-width: 1120px;
+    margin: auto;
+    /*Manipulations stuff*/
+    transform: translate("0, -50%");
+}
+
+button {
+    /*Box model stuff*/
+    padding: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    background: #a45a49;
+    /*Miscellaneous*/
+    cursor: pointer;
+}
+
+section.receitas {
+    display: flex;
+    flex-direction: column;
+
+    max-width: 1120px;
+    padding: 3rem 2rem;
+    margin: auto;
+}
