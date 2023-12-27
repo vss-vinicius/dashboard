@@ -71,15 +71,75 @@ main {
     flex-direction: column;
 }
 
+div#hero-section {
+    /*Box model stuff*/
+    background: #181012;
+}
+
 section.hero {
     /*Display stuff*/
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: space-between;
     /*Box model stuff*/
     max-width: 1120px;
     height: 60vh;
-    background: #181012;
+    margin: auto;
+    padding: 0rem 2rem;
     /*Miscellaneous*/
     gap: 6rem;
+    overflow: clip;
+}
+
+span.destaque {
+    /*Typography stuff*/
+    font-family: Epilogue;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+span.marrom {
+    /*Typography stuff*/
+    color: #a45a49;
+}
+
+h1 {
+    /*Typography stuff*/
+    font-family: Montserrat;
+    font-size: 3.5rem;
+    font-weight: 800;
+}
+
+hr {
+    /*Box model stuff*/
+    border-color: #a45a49;
+}
+
+h2.hero-subtitle {
+    /*Typography stuff*/
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #C7BAB3;
+}
+
+header.hero-content {
+    /*Display stuff*/
+    display: flex;
+    flex-direction: column;
+    /*Miscellaneous*/
+    gap: 1rem;
+}
+
+div.hero-img {
+    /*Miscellaneous*/
+    column-count: 4;
+}
+
+div.hero-img>figure>img {
+    /*Box model stuff*/
+    width: 6.5rem;
+    border-radius: 0.5rem;
 }
