@@ -214,6 +214,7 @@ div.receitas-card {
     flex-basis: 29rem;
     flex-direction: column;
     /*Box model stuff*/
+    margin-top: 2rem;
     padding: 2rem;
     border-radius: 0.5rem;
     background: #241a1c;
@@ -282,8 +283,39 @@ div.receita-autor>img {
 }
 
 span.receita-autor-nome {
-    color: #C7BAB3;
+    /*Typography stuff*/
     font-family: Inter;
     font-size: 1rem;
     font-weight: 600;
+    color: #C7BAB3;
+}
+
+/* --Footer-- */
+
+footer {
+    /*Display stuff*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*Box model stuff*/
+    padding: 4rem;
+    background: #23181a;
+    /*Miscellaneous*/
+    gap: 0.5rem;
+}
+
+footer p:nth-child(1) {
+    /*Typography stuff*/
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fff2e7;
+}
+
+footer p:nth-child(2) {
+    /*Typography stuff*/
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgba(255, 242, 231, 0.50);
 }
