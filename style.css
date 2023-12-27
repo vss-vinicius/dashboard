@@ -164,10 +164,126 @@ button {
 }
 
 section.receitas {
+    /*Display stuff*/
     display: flex;
     flex-direction: column;
-
+    /*Box model stuff*/
     max-width: 1120px;
-    padding: 3rem 2rem;
     margin: auto;
+    padding: 3rem 2rem;
+}
+
+header.receitas-cabecalho {
+    /*Display stuff*/
+    display: flex;
+    flex-direction: column;
+    /*Miscellaneous*/
+    gap: 0.5rem;
+}
+
+header.receitas-cabecalho>h2 {
+    /*Typography stuff*/
+    font-family: Montserrat;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #fff2e7;
+}
+
+header.receitas-cabecalho>p {
+    /*Typography stuff*/
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #C7BAB3;
+}
+
+div.receitas-card-container {
+    /*Display stuff*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /*Box model stuff*/
+    padding: 0rem 10rem;
+    /*Miscellaneous*/
+    gap: 2rem;
+}
+
+div.receitas-card {
+    /*Display stuff*/
+    display: flex;
+    flex-basis: 29rem;
+    flex-direction: column;
+    /*Box model stuff*/
+    padding: 2rem;
+    border-radius: 0.5rem;
+    background: #241a1c;
+    /*Miscellaneous*/
+    gap: 2rem;
+}
+
+header.receitas-card-cabecalho {
+    /*Display stuff*/
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: space-between;
+}
+
+div.receitas-card-cabecalho-detalhes {
+    /*Display stuff*/
+    display: flex;
+    flex-direction: column;
+    /*Miscellaneous*/
+    gap: 0.5rem;
+}
+
+span.amarelo {
+    /*Typography stuff*/
+    color: #e7a80e;
+}
+
+h3.receita-titulo {
+    /*Typography stuff*/
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #fff2e7;
+}
+
+p.receita-avaliacao {
+    /*Typography stuff*/
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #756a67;
+}
+
+p.receita-descricao {
+    /*Typography stuff*/
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #C7BAB3;
+}
+
+div.receita-autor {
+    /*Display stuff*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /*Miscellaneous*/
+    gap: 0.5rem;
+}
+
+div.receita-autor>img {
+    /*Box model stuff*/
+    width: 1.5rem;
+    border-radius: 20rem;
+}
+
+span.receita-autor-nome {
+    color: #C7BAB3;
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 600;
 }
