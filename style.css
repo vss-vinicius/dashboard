@@ -16,3 +16,45 @@ body {
     background: #1f1517;
     color: #ffffff;
 }
+
+/* Header */
+
+nav {
+    max-width: 1120px;
+    margin: auto;
+    padding: 1.5rem 10rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+span.logo {
+    font-family: Teko;
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+ul.menu {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+}
+
+ul>li>a {
+    color: #fff2e780;
+}
+
+a.github {
+    color: #fff2e7;
+    font-weight: 600;
+}
+
+/* Main */
+
+main {
+    display: flex;
+    flex-direction: column;
+}
